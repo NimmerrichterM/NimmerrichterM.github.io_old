@@ -1,0 +1,153 @@
+.menubar  {
+  height:  70px;
+  background-color: maroon;
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+  top: 0px;
+  width: 700px;
+  margin:  auto;
+  padding-left: 80px;
+  padding-right:80px;
+  position:sticky;
+  z-index: 1;
+}
+
+.menuitem  {
+  width:auto;
+  height:34px;
+  color: white;
+  background: maroon;
+  font-size:30px;
+  text-align: center;
+  margin: 30px;
+  padding: 5px;
+  
+  
+  }
+
+.section {
+  display: flex;
+  width: 860px;
+  margin:  auto;
+  
+  
+}
+
+img  {
+ height: 500px;
+  width: 350px;
+  object-fit:  cover;
+  
+  
+ 
+  
+}
+
+.headContainer {
+  position: relative;
+  color: maroon;
+  font-family: 'Abril Fatface', cursive; 
+  
+}
+
+h2   {
+  margin: 0px;
+  font-size: 48px;
+  pading:  0px;
+  line-height: 38px;
+  margin-left:-30px;
+  
+}
+
+main  {
+  position:relative;
+  font-family: 'Josefin Sans', sans-serif;
+  color:maroon;
+  line-height: 2em;
+  margin-left:15px;
+  width: 495px;
+}
+
+
+
+h3  {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: maroon;
+  font-weight:  normal;
+  font-family: 'Abril Fatface', cursive; 
+  margin-bottom:  0px;
+  margin-left:0px
+  
+ 
+}
+
+.experience  {
+  margin: 1em 0em;
+}
+
+h4  {
+  font-family: 'Merriweather', serif;
+  color:  maroon;
+  font-size:  15px;
+  font-style:  italic;
+  margin-top: 0px;
+}
+
+.small  {
+  font-size: 34px;
+  margin-top:60px;
+}
+
+
+
+
+
+
+.centered {
+  position: absolute;
+   top: 60%;
+  text-align: left;
+    margin-left:20%;
+}
+
+
+
+blockquote::before {
+  position: absolute;
+  top: -25px;
+  left:0px;
+  margin-left:0;
+  content: "“";
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size:90px;
+}
+
+blockquote  {
+  position: relative;
+  color: white;
+  background:  maroon;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 42px;
+  padding:  36px;
+  width: 278px;
+  margin:0px;
+  margin-top:20px;
+  height: auto;
+  word-spacing:40px;
+  letter-spacing:7px;
+  line-height: 50px;
+  overflow:  hidden;
+  
+}
+
+footer  {
+  border-top: solid;
+  
+}
+
+a  {
+  color: white;
+}
